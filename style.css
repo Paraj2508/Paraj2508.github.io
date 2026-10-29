@@ -1,31 +1,31 @@
 /* ---------- Tokens ---------- */
 :root {
     --font: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-    --accent: #38d4f2;
     --radius: 10px;
     --max: 880px;
     --nav-h: 64px;
 }
 [data-theme="dark"] {
-    --bg: #0b0d10;
-    --surface: #12161b;
-    --text: #eef2f6;
-    --muted: #98a2ae;
-    --line: rgba(255, 255, 255, 0.1);
-    --accent-text: #38d4f2;
-    --on-accent: #04141a;
-    --glow: rgba(56, 212, 242, 0.14);
+    --bg: #1e2a36;          /* Blue Coal */
+    --surface: #263545;
+    --text: #f3eadf;        /* Albescent White */
+    --muted: #aeb6bd;
+    --line: rgba(243, 234, 223, 0.15);
+    --accent: #f3eadf;
+    --accent-text: #f3eadf;
+    --on-accent: #1e2a36;
+    --glow: rgba(243, 234, 223, 0.08);
 }
 [data-theme="light"] {
-    --bg: #fafbfc;
-    --surface: #ffffff;
-    --text: #10151a;
-    --muted: #5a6572;
-    --line: rgba(16, 21, 26, 0.12);
-    --accent: #0a84c6;
-    --accent-text: #076fa6;
-    --on-accent: #ffffff;
-    --glow: rgba(10, 132, 198, 0.1);
+    --bg: #f3eadf;          /* Albescent White */
+    --surface: #faf5ee;
+    --text: #1e2a36;        /* Blue Coal */
+    --muted: #56626e;
+    --line: rgba(30, 42, 54, 0.16);
+    --accent: #1e2a36;
+    --accent-text: #1e2a36;
+    --on-accent: #f3eadf;
+    --glow: rgba(30, 42, 54, 0.08);
 }
 
 /* ---------- Base ---------- */

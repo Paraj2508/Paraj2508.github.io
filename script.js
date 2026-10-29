@@ -8,7 +8,7 @@ const themeBtn = document.getElementById('theme-btn');
 function syncThemeLabel() {
     const dark = root.dataset.theme === 'dark';
     themeBtn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
-    document.querySelector('meta[name="theme-color"]').content = dark ? '#0b0d10' : '#fafbfc';
+    document.querySelector('meta[name="theme-color"]').content = dark ? '#1e2a36' : '#f3eadf';
 }
 themeBtn.addEventListener('click', () => {
     root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
